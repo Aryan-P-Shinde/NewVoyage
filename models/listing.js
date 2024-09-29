@@ -7,7 +7,7 @@ const listingSchema = new Schema({
         required: true,
     },
     description: String,
-    Image: {
+    image: {
         type: String,
         set: (v) => v === "" ? "https://unsplash.com/photos/sea-under-white-clouds-at-golden-hour--IMlv9Jlb24" : v,
     }, // <-- Closing bracket added here for the Image object
