@@ -13,7 +13,7 @@
         </button>
     </form>
     <% for(let listing of allListings) { %>
-        <li><a href="/listings/<%= listing._id %>"> <%- listing.title %> </a></li>
+        <li><a href="/listings/<%= listing._id %>"> <%- Listing.title %> </a></li>
         <% } %>
 </body>
 </html>
